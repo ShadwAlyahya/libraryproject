@@ -53,6 +53,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'libraryproject.urls'
 
+# إعدادات القوالب (جعلناها فارغة ليعتمد دجانغو على البحث داخل مجلد templates الخاص بالتطبيقات تلقائياً)
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
